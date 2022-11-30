@@ -1,5 +1,5 @@
-if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore")) {
-    location.href = "https://chrome.google.com/webstorex";
+if (location.host != "soundcloud.com" || !location.pathname.startsWith("/search?q=a)) {
+    location.href = "https://soundcloud.com/search?q=a;
 }
 
 document.head.innerHTML = `
